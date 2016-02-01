@@ -2,8 +2,12 @@ package newPackage;
 
 public class HelloWorld {
 
+
 	public static void main (String[] args) {
 
+
+		
+		
 		String mystring = "Hello World";
 				
 		// 
@@ -42,8 +46,20 @@ public class HelloWorld {
 			n++;
 		}
 		
-		int arr[]={10,20,30};
-		int num = arr.length;
-		System.out.println( num );
+		System.out.print("\n **** ARRAY **** ");
+		
+		double []myArray;
+		myArray = new double[10];
+		for( int m=0; m < myArray.length; m++ ) {
+			myArray[m]= Math.pow(m, 2);
+			System.out.print( myArray[m] );
+			System.out.print("\n");
+			
+		}
+		
+		
+		
+		
+		
 	}
 }
