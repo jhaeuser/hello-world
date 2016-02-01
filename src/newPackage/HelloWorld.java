@@ -5,10 +5,10 @@ public class HelloWorld {
 
 	public static void main (String[] args) {
 
-
-		
+	
 		
 		String mystring = "Hello World";
+		StringBuffer str = new StringBuffer();
 				
 		// 
 		System.out.print("Hello World \non two lines \t" + mystring );
@@ -58,8 +58,7 @@ public class HelloWorld {
 		}
 		
 		
-		
-		
+	
 		
 	}
 }
