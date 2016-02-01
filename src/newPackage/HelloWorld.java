@@ -42,5 +42,8 @@ public class HelloWorld {
 			n++;
 		}
 		
+		int arr[]={10,20,30};
+		int num = arr.length;
+		System.out.println( num );
 	}
 }
